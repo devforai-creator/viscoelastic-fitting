@@ -30,7 +30,7 @@ np.savetxt(
     delimiter=",",
     header="time_s, displacement_m, force_N",
     comments="",
-    fmt="%.6f"
+    fmt="%.10f"
 )
 
 print("Saved viscoelastic_test.csv")
